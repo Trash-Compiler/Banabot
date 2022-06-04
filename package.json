@@ -1,0 +1,32 @@
+{
+  "name": "banabyte-discord-bot",
+  "version": "1.0.0",
+  "description": "The discord bot for the Banabyte Network",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "run-dev": "ts-node-dev --respawn --ignore-watch data ./src/index.ts",
+    "run-js": "node ./dist/index.js"
+  },
+  "keywords": [
+    "discord-bot"
+  ],
+  "author": "sev",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@discordjs/builders": "^0.13.0",
+    "@discordjs/rest": "^0.4.1",
+    "discord-api-types": "^0.32.0",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.22.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.4"
+  }
+}

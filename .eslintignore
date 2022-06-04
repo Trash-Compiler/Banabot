@@ -1,0 +1,22 @@
+# Compiled Code
+dist/
+
+# Node Modules
+node_modules/
+
+# .vscode
+.vscode/
+
+# EJS files
+*.ejs 
+
+# Text files and Data Files
+*.txt 
+*.json
+*.env
+
+# Unrelated Stuff
+*.bat
+*.sh
+*.md 
+*.example

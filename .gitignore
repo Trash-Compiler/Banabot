@@ -1,0 +1,13 @@
+# Node Modules
+/node_modules/
+
+# Compiled Typescript
+/dist/**/*.js
+/dist/**/*.map
+/dist/**/*.json
+
+# Secret File
+secret.env
+
+# Dev Folder
+.vscode/
