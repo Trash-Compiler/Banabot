@@ -104,7 +104,7 @@ export class Banabyte {
             if(member.guild.id !== this.guildID) return;
 
             // Welcome Users to Banabyte
-            let welcomeChannel = (<Discord.TextChannel> (await member.guild.channels.cache.find(n => n.name == `welcome`))) || null;
+            let welcomeChannel = (<Discord.TextChannel> (await member.guild.channels.cache.find(n => n.name.toLowerCase().includes(`welcome`)))) || null;
             let welcomeEmbed = new Discord.MessageEmbed();
             welcomeEmbed.setAuthor({name: config.bot.name, iconURL: bot.user.avatarURL()});
             welcomeEmbed.setTitle(`:wave: Welcome to the Banabyte Network!`);
