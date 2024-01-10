@@ -14,7 +14,7 @@
   "author": "sev",
   "license": "GPL-3.0",
   "dependencies": {
-    "@discordjs/builders": "^0.13.0",
+    "@discordjs/builders": "^0.16.0",
     "@discordjs/rest": "^0.4.1",
     "discord-api-types": "^0.32.0",
     "discord.js": "^13.6.0",
